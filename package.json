@@ -15,10 +15,12 @@
   "type": "module",
   "dependencies": {
     "del": "^8.0.1",
+    "file-system": "^2.2.2",
     "gulp": "^5.0.1",
     "gulp-imagemin": "^9.1.0",
     "gulp-sass": "^6.0.1",
     "gulp-uglify": "^3.0.2",
+    "path": "^0.12.7",
     "sass": "^1.93.2",
     "webpack-stream": "^7.0.0"
   }
