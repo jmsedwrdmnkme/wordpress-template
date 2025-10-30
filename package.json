@@ -1,0 +1,25 @@
+{
+  "name": "wordpress-boilerplate",
+  "version": "1.0.0",
+  "description": "Minimal front end boilerplate, kept up to date via Node package manager",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.jamesmonk.me/james/wordpress-boilerplate"
+  },
+  "author": "James Monk",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "del": "^8.0.1",
+    "gulp": "^5.0.1",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-sass": "^6.0.1",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.93.2",
+    "webpack-stream": "^7.0.0"
+  }
+}
