@@ -19,7 +19,7 @@ import path from 'path';
 
 // Variables
 
-const themeName = 'mrba-theme';
+const themeName = 'theme-name';
 const themeDir = `dist/themes/${themeName}`;
 
 const pluginDir = `dist/plugins`;
