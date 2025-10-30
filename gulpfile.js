@@ -45,7 +45,7 @@ function fonts() {
 }
 
 function img() {
-  gulp.src(['src/assets/img/*', '!src/assets/img/screenshot.jpg'])
+  gulp.src(['src/assets/img/*', '!src/assets/img/screenshot.png'], {encoding: false})
     .pipe(imagemin([
       gifsicle({interlaced: true}),
       mozjpeg({quality: 75, progressive: true}),
@@ -64,9 +64,9 @@ function img() {
       })
     ]))
     .pipe(gulp.dest(`${themeDir}/assets/img/`));
-  return gulp.src('src/assets/img/screenshot.jpg')
+  return gulp.src('src/assets/img/screenshot.png', {encoding: false})
     .pipe(imagemin([
-      mozjpeg({quality: 75, progressive: true}),
+      optipng({optimizationLevel: 5})
     ]))
     .pipe(gulp.dest(themeDir));
 }
