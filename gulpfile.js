@@ -126,7 +126,7 @@ function watchFiles() {
   gulp.watch('src/assets/img/*', img);
   gulp.watch('src/assets/css/**/*', css);
   gulp.watch('src/assets/js/**/*', js);
-  gulp.watch('src/blocks/**/src/**/*', blocksBuild);
+  gulp.watch('src/blocks/**/build/**/*', blocksBuild);
 }
 
 
