@@ -79,9 +79,9 @@ function css() {
 
 function js() {
   return gulp.src('src/assets/js/*')
-    .pipe(webpack({}))
+    .pipe(webpack({mode: 'production'}))
     .pipe(uglify())
-    .pipe(gulp.dest(themeDir));
+    .pipe(gulp.dest(`${themeDir}/assets/js/`));
 }
 
 function blocks() {
