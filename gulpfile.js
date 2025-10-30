@@ -72,7 +72,7 @@ function img() {
 }
 
 function css() {
-  return gulp.src('src/assets/css/*')
+  return gulp.src('src/assets/css/style.scss')
     .pipe(sass.sync({style: 'compressed'}).on('error', sass.logError))
     .pipe(gulp.dest(themeDir));
 }
