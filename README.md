@@ -1,3 +1,5 @@
+# WORK IN PROCESS - Real world project using finalised version launching soon, will be releasing the boilerplate updates here ASAP.
+
 # wordpress-boilerplate
 Modern, optimised, minimal wordpress boilerplate; installed and kept up to date via PNPM.
 
